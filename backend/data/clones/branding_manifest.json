@@ -1,0 +1,42 @@
+{
+    "fedex": {
+        "colors": {
+            "primary": null,
+            "text": "rgb(0, 0, 0)",
+            "background": "rgb(255, 255, 255)"
+        },
+        "fontFamily": "Arial, Helvetica, Verdana, sans-serif",
+        "title": "FedEx | System Down",
+        "screenshot": "youssef-dafa-v2/backend/data/clones/fedex_reference.png"
+    },
+    "aramex": {
+        "colors": {
+            "primary": null,
+            "text": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)"
+        },
+        "fontFamily": "\"Times New Roman\"",
+        "title": "Access Denied",
+        "screenshot": "youssef-dafa-v2/backend/data/clones/aramex_reference.png"
+    },
+    "alrajhi": {
+        "colors": {
+            "primary": "rgba(0, 0, 0, 0)",
+            "text": "oklch(0.176476 0.122285 264.052)",
+            "background": "rgba(0, 0, 0, 0)"
+        },
+        "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        "title": "\u0627\u0644\u0623\u0641\u0631\u0627\u062f | \u0645\u0635\u0631\u0641 \u0627\u0644\u0631\u0627\u062c\u062d\u064a",
+        "screenshot": "youssef-dafa-v2/backend/data/clones/alrajhi_reference.png"
+    },
+    "snb": {
+        "colors": {
+            "primary": null,
+            "text": "rgb(33, 37, 41)",
+            "background": "rgb(255, 255, 255)"
+        },
+        "fontFamily": "\"Neo Sans Arabic\", SNBFont",
+        "title": "404 Page",
+        "screenshot": "youssef-dafa-v2/backend/data/clones/snb_reference.png"
+    }
+}

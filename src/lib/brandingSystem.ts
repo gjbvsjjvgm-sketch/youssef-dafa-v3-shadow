@@ -50,27 +50,27 @@ export interface CompanyBranding {
 }
 
 export const entityBranding: Record<string, CompanyBranding> = {
-  sadad: {
-    id: 'sadad',
-    nameEn: 'SADAD',
-    nameAr: 'سداد',
+  fedex: {
+    id: 'fedex',
+    nameEn: 'FedEx',
+    nameAr: 'فيديكس',
     colors: {
-      primary: '#EF7622',
-      secondary: '#9D9D9C',
+      primary: '#4D148C',
+      secondary: '#FF6200',
       accent: '#FFFFFF',
       background: '#FFFFFF',
-      surface: '#F9F9F9',
+      surface: '#F8F8F8',
       text: '#333333',
-      textLight: '#777777',
+      textLight: '#717171',
       textOnPrimary: '#FFFFFF',
-      border: '#D1D1D1',
+      border: '#E1E1E1',
     },
-    fonts: { primary: 'Futura, sans-serif', secondary: 'Arial, sans-serif', arabic: 'Cairo, sans-serif' },
+    fonts: { primary: 'FedEx Sans, Roboto, sans-serif', secondary: 'Helvetica, sans-serif', arabic: 'Almarai, sans-serif' },
     gradients: { primary: 'none', secondary: 'none', hero: 'none' },
-    shadows: { sm: 'none', md: 'none', lg: 'none' },
-    borderRadius: { sm: '0px', md: '4px', lg: '4px' },
-    logoUrl: '/assets/branding/logo-sadad.png',
-    description: 'نظام سداد للمدفوعات السعودية',
+    shadows: { sm: '0 1px 3px rgba(0,0,0,0.1)', md: '0 4px 6px rgba(0,0,0,0.1)', lg: '0 10px 15px rgba(0,0,0,0.1)' },
+    borderRadius: { sm: '0px', md: '0px', lg: '0px' },
+    logoUrl: '/assets/clones/logos/logo-fedex.png',
+    description: 'FedEx Visual Identity',
     layoutType: 'cloned'
   },
   dhl: {
@@ -78,22 +78,45 @@ export const entityBranding: Record<string, CompanyBranding> = {
     nameEn: 'DHL',
     nameAr: 'دي إتش إل',
     colors: {
-      primary: '#D40511',
-      secondary: '#FFCC00',
+      primary: '#D2002E',
+      secondary: '#FFCC01',
       accent: '#000000',
       background: '#FFFFFF',
-      surface: '#FFCC00',
+      surface: '#FFCC01',
       text: '#000000',
       textLight: '#1A1A1A',
       textOnPrimary: '#FFFFFF',
-      border: '#D40511',
+      border: '#D2002E',
     },
-    fonts: { primary: 'Delivery, Arial Black, sans-serif', secondary: 'Helvetica, sans-serif', arabic: 'Cairo, sans-serif' },
+    fonts: { primary: 'DHL Sans, Arial Black, sans-serif', secondary: 'Helvetica, sans-serif', arabic: 'Almarai, sans-serif' },
     gradients: { primary: 'none', secondary: 'none', hero: 'none' },
     shadows: { sm: 'none', md: 'none', lg: 'none' },
     borderRadius: { sm: '0px', md: '0px', lg: '0px' },
-    logoUrl: '/assets/branding/logo-dhl.png',
+    logoUrl: '/assets/clones/logos/logo-dhl.png',
     description: 'DHL Logistics official visual identity',
+    layoutType: 'cloned'
+  },
+  aramex: {
+    id: 'aramex',
+    nameEn: 'Aramex',
+    nameAr: 'أرامكس',
+    colors: {
+      primary: '#DC291E',
+      secondary: '#FFFFFF',
+      accent: '#000000',
+      background: '#FFFFFF',
+      surface: '#F9F9F9',
+      text: '#333333',
+      textLight: '#777777',
+      textOnPrimary: '#FFFFFF',
+      border: '#DC291E',
+    },
+    fonts: { primary: 'Aramex Font, Roboto, sans-serif', secondary: 'Helvetica, sans-serif', arabic: 'Almarai, sans-serif' },
+    gradients: { primary: 'none', secondary: 'none', hero: 'none' },
+    shadows: { sm: '0 1px 2px rgba(0,0,0,0.05)', md: '0 4px 6px rgba(0,0,0,0.1)', lg: '0 10px 15px rgba(0,0,0,0.1)' },
+    borderRadius: { sm: '0px', md: '2px', lg: '4px' },
+    logoUrl: '/assets/clones/logos/logo-aramex.png',
+    description: 'Aramex official visual identity',
     layoutType: 'cloned'
   },
   alrajhi: {
@@ -101,7 +124,7 @@ export const entityBranding: Record<string, CompanyBranding> = {
     nameEn: 'Al Rajhi Bank',
     nameAr: 'مصرف الراجحي',
     colors: {
-      primary: '#0047BB',
+      primary: '#003D7A',
       secondary: '#F29100',
       accent: '#FFFFFF',
       background: '#FFFFFF',
@@ -111,51 +134,41 @@ export const entityBranding: Record<string, CompanyBranding> = {
       textOnPrimary: '#FFFFFF',
       border: '#E1E9F5',
     },
-    fonts: { primary: 'Inter, sans-serif', secondary: 'Helvetica, sans-serif', arabic: 'Cairo, sans-serif' },
-    gradients: { primary: 'linear-gradient(135deg, #0047BB, #002E7A)', secondary: 'none', hero: 'none' },
-    shadows: { sm: '0 2px 4px rgba(0,71,187,0.05)', md: '0 8px 16px rgba(0,71,187,0.1)', lg: '0 20px 40px rgba(0,71,187,0.15)' },
+    fonts: { primary: 'Inter, sans-serif', secondary: 'Helvetica, sans-serif', arabic: 'Almarai, sans-serif' },
+    gradients: { primary: 'linear-gradient(135deg, #003D7A, #002E7A)', secondary: 'none', hero: 'none' },
+    shadows: { sm: '0 2px 4px rgba(0,61,122,0.05)', md: '0 8px 16px rgba(0,61,122,0.1)', lg: '0 20px 40px rgba(0,61,122,0.15)' },
     borderRadius: { sm: '8px', md: '16px', lg: '24px' },
-    logoUrl: '/assets/branding/logo-alrajhi.png',
+    logoUrl: '/assets/clones/logos/logo-alrajhi-com-sa.png',
     description: 'الهوية البصرية الجديدة لمصرف الراجحي',
     layoutType: 'cloned'
   },
-  knet: {
-    id: 'knet',
-    nameEn: 'KNET',
-    nameAr: 'كي نت',
+  snb: {
+    id: 'snb',
+    nameEn: 'SNB',
+    nameAr: 'البنك الأهلي السعودي',
     colors: {
-      primary: '#008080',
-      secondary: '#E31B23',
-      accent: '#FFFFFF',
-      background: '#F4F4F4',
-      surface: '#FFFFFF',
-      text: '#1A1A1A',
-      textLight: '#666666',
+      primary: '#00838C',
+      secondary: '#FFFFFF',
+      accent: '#000000',
+      background: '#FFFFFF',
+      surface: '#F0F4F4',
+      text: '#212529',
+      textLight: '#6C757D',
       textOnPrimary: '#FFFFFF',
-      border: '#D1D1D1',
+      border: '#00838C',
     },
-    fonts: { primary: 'Montserrat, sans-serif', secondary: 'Helvetica, sans-serif', arabic: 'Cairo, sans-serif' },
+    fonts: { primary: 'Neo Sans Arabic, Roboto, sans-serif', secondary: 'Helvetica, sans-serif', arabic: 'Almarai, sans-serif' },
     gradients: { primary: 'none', secondary: 'none', hero: 'none' },
-    shadows: { sm: '0 2px 4px rgba(0,0,0,0.05)', md: '0 4px 12px rgba(0,0,0,0.1)', lg: '0 10px 25px rgba(0,0,0,0.15)' },
-    borderRadius: { sm: '4px', md: '8px', lg: '10px' },
-    logoUrl: '/assets/branding/logo-knet.png',
-    description: 'شبكة كي نت الكويتية',
+    shadows: { sm: '0 1px 3px rgba(0,0,0,0.1)', md: '0 4px 6px rgba(0,0,0,0.1)', lg: '0 10px 15px rgba(0,0,0,0.1)' },
+    borderRadius: { sm: '4px', md: '8px', lg: '12px' },
+    logoUrl: '/assets/clones/logos/logo-snb.png',
+    description: 'SNB official visual identity',
     layoutType: 'cloned'
   }
 };
 
-export const bankBranding: Record<string, CompanyBranding> = {
-  alrajhi: entityBranding.alrajhi,
-  // Add other banks as needed
-};
-
-export const shippingCompanyBranding: Record<string, CompanyBranding> = {
-  aramex: entityBranding.sadad, // Defaulting or mapping specifically
-  dhl: entityBranding.dhl,
-};
-
 export const getBranding = (id: string): CompanyBranding => {
-  return entityBranding[id] || entityBranding['sadad'];
+  return entityBranding[id] || entityBranding['alrajhi'];
 };
 
 export const getBrandingByCompany = getBranding;
